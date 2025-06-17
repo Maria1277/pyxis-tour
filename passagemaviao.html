@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Reserva de Passagem Aérea</title>
+</head>
+<body>
+  <h2>Reserva de Passagem Aérea</h2>
+
+
+  <label for="companhia">Companhia aérea:</label>
+  <select id="companhia" name="companhia">
+    <option value="">Selecione</option>
+    <option value="latam">LATAM</option>
+    <option value="gol">GOL</option>
+    <option value="azul">Azul</option>
+    <option value="avianca">Avianca</option>
+    <option value="voepass">VOEPASS</option>
+  </select>
+  
+  <br><br>
+
+ 
+  <label for="classe">Classe:</label>
+  <select id="classe" name="classe">
+    <option value="">Selecione</option>
+    <option value="economica">Econômica</option>
+    <option value="executiva">Executiva</option>
+    <option value="primeira">Primeira Classe</option>
+  </select>
+
+  <br><br>
+
+ 
+  <label for="ida">Data ida:</label>
+  <input type="date" id="ida" name="ida"><br><br>
+
+  <label for="volta">Data volta:</label>
+  <input type="date" id="volta" name="volta"><br><br>
+
+  <label for="hora">hora:</label>
+<input type="time" id="hora" name="hora"><br><br>
+  <label for="adultos">Adultos:</label>
+  <input type="number" id="adultos" name="adultos" min="1" max="10" value="1"><br><br>
+
+  <label for="criancas">Crianças:</label>
+  <input type="number" id="criancas" name="criancas" min="1" max="10" value="1"><br><br> 
+
+  <h2>Forma de Pagamento</h2>
+
+
+  <label for="pagamento">Escolha o método de pagamento:</label>
+  <select id="pagamento" name="pagamento">
+    <option value="">Selecione</option>
+    <option value="cartao">Cartão de Crédito</option>
+    <option value="pix">Pix</option>
+    <option value="boleto">Boleto Bancário</option>
+  </select>
+
+ 
+  <button type="submit">Finalizar Pagamento</button>
+</body>
+</html>
+
+
+
