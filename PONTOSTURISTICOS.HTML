@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Ofertas Pyxis Tour</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #4ecdc4, #1a73e8);
+      color: white;
+    }
+
+    .logo {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .box {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 15px;
+      color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+
+    .box h3 {
+      border-bottom: 1px solid white;
+      padding-bottom: 5px;
+      font-size: 18px;
+    }
+
+    .box img {
+      width: 100%;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin: 10px 0;
+    }
+
+    .preco {
+      color: #ffe600;
+      font-weight: bold;
+    }
+
+    .botao-voltar {
+      margin-top: 30px;
+      text-align: left;
+    }
+
+    .botao-voltar a {
+      background: white;
+      color: #1a3dab;
+      padding: 8px 16px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .botao-voltar a:hover {
+      background: #eee;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="logo">
+    <h1>PYXIS TOUR</h1>
+    <p>turistando!</p>
+  </div>
+
+  <div class="container">
+    <div class="box">
+      <h3>Pontos Turísticos</h3>
+      <img src="pontejk.png" alt="Pontos turísticos">
+      <p>Catedral, Torre de TV, Palácio do Planalto, Ponte JK...</p>
+      <p><strong>Parques:</strong> Jardim Botânico, Parque da Cidade</p>
+    </div>
+
+    <div class="box">
+      <h3>Restaurantes</h3>
+      <img src="cocobambu.png" alt="Restaurante">
+      <p><strong>Coco Bambu</strong> - Lago Sul</p>
+    </div>
+
+    <div class="box">
+      <h3>Carros</h3>
+      <img src="movida.png" alt="Aluguel de carro">
+      <p><strong>Movida</strong> - R$ <span class="preco">137,19</span></p>
+      
+    </div>
+
+    <div class="box">
+      <h3>Hotéis</h3>
+      <img src="hotel.png" alt="Hotel">
+      <p><strong>Kubitschek</strong> - <span class="preco">R$251</span></p>
+
+    </div>
+  </div>
+
+  <div class="botao-voltar">
+    <a href="index.html">⬅ Voltar</a>
+  </div>
+
+</body>
+</html>
