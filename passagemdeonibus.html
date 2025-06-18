@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Reserva de Passagem terrestre</title>
+</head>
+<body>
+  <h2>Reserva de Passagem terrestre</h2>
+
+  <label for="empresa">Empresa de ônibus:</label>
+  <select id="empresa" name="empresa">
+    <option value="">Selecione</option>
+    <option value="cometa">Viação Cometa</option>
+    <option value="util">Útil</option>
+    <option value="1001">Auto Viação 1001</option>
+    <option value="gontijo">Gontijo</option>
+    <option value="pluma">Pluma</option>
+  </select>
+  <br><br>
+
+ 
+  <label for="ida">Data ida:</label>
+  <input type="date" id="ida" name="ida"><br><br>
+
+  <label for="volta">Data volta:</label>
+  <input type="date" id="volta" name="volta"><br><br>
+
+  <label for="hora">hora:</label>
+<input type="time" id="hora" name="hora"><br><br>
+  <label for="adultos">Adultos:</label>
+  <input type="number" id="adultos" name="adultos" min="1" max="10" value="1"><br><br>
+
+  <label for="criancas">Crianças:</label>
+  <input type="number" id="criancas" name="criancas" min="1" max="10" value="1"><br><br> 
+
+  <h2>Forma de Pagamento</h2>
+
+
+  <label for="pagamento">Escolha o método de pagamento:</label>
+  <select id="pagamento" name="pagamento">
+    <option value="">Selecione</option>
+    <option value="cartao">Cartão de Crédito</option>
+    <option value="pix">Pix</option>
+    <option value="boleto">Boleto Bancário</option>
+  </select>
+
+ 
+  <button type="submit">Finalizar Pagamento</button>
+</body>
+</html>
